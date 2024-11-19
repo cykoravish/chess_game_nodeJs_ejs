@@ -21,6 +21,9 @@ app.get("/", (req, res) => {
 
 io.on("connection", function (uniquesocket) {
   console.log("connected");
+  uniquesocket.on("baby", () => {
+    io.emit("baby mil gya");
+  });
 });
 
 server.listen(3000, () => {
