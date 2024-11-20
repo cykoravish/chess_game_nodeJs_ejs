@@ -18,7 +18,7 @@
 
         .piece.white {
             color: white;
-            filter: drop-shadow(0 0 2px rgba(0, 0, 0, 1))
+            filter: drop-shadow(0 0 2px rgba(0, 0, 0, 1));
         }
 
         .piece.black {
@@ -45,18 +45,19 @@
 
         .piece {
             font-size: 36px;
-            cursor: pointer
+            cursor: pointer;
         }
 
-        .pieces.draggable {
-            cursor: grab
+        .piece.draggable {
+            cursor: grab;
         }
 
         .dragging {
             opacity: 0.5;
         }
 
-        .flipped .pieces {
+        /* Rotate pieces for black player */
+        .flipped .piece {
             transform: rotate(180deg);
         }
     </style>
