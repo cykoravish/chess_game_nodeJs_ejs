@@ -56,10 +56,8 @@ http://localhost:3000
 ## 📂 Project Structure
 .
 ├── public
-│   ├── css
-│   │   └── styles.css   # Custom styles for the frontend
 │   ├── js
-│   │   └── game.js      # Main JavaScript for game logic
+│   │   └── chessgame.js      # Main JavaScript for game logic
 ├── views
 │   └── index.ejs        # Main EJS template
 ├── app.js            # Backend server setup
