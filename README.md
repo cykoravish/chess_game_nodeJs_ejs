@@ -62,7 +62,7 @@ http://localhost:3000
 │   │   └── game.js      # Main JavaScript for game logic
 ├── views
 │   └── index.ejs        # Main EJS template
-├── server.js            # Backend server setup
+├── app.js            # Backend server setup
 └── README.md            # Project documentation
 
 ## 🤝 Contributing
